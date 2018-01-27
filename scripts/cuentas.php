@@ -64,6 +64,22 @@ $query = mysqli_query($con,"SELECT * FROM cuentas WHERE Nombre = '$username'");
  {
  $trabajo = 'Pescador';
  }
+ if($row['Empresa'] == 0)
+ {
+ $empresa = 'Ninguna';
+ }
+ else if($row['Empresa'] == 1)
+ {
+ $empresa = 'UBER';
+ }
+ else if($row['Empresa'] == 2)
+ {
+ $empresa = 'Camioneros';
+ }
+ else if($row['Empresa'] == 3)
+ {
+ $empresa = 'Seguridad';
+ }
 
  if($pfaccion == 0)
  {

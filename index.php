@@ -392,6 +392,9 @@ include 'scripts/descripciones.php'
                     <strong>Trabajo</strong>: <font color="7E7E7E"> <?php echo $trabajo;?></font>
                     <br>
                     <br>
+                    <strong>Empresa</strong>: <font color="7E7E7E"> <?php echo $empresa;?></font>
+                    <br>
+                    <br>
                     <strong>Facción</strong>: <font color="7E7E7E"> <?php echo $faccion;?> </font>
                     <br>
                     <br>
