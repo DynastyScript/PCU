@@ -9,6 +9,7 @@ $query = mysqli_query($con,"SELECT * FROM cuentas WHERE Nombre = '$username'");
  $vida = $row['Vida'];
  $llave1 = $row['Llave1'];
  $llave2 = $row['Llave2'];
+ $empresa = $row['Empresa'];
  $chaleco = $row['Chaleco'];
  $banco = $row['Banco'];
  $muertes = $row['Muertes'];
