@@ -261,7 +261,7 @@ include 'scripts/descripciones.php'
             <span>Facciones</span>
           </a>
         </li>
-        <li class="treeview">
+        <li>
           <a href="devlog.php">
             <i class="fa fa-edit"></i> <span>Devlog</span>
           </a>
