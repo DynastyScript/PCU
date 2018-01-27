@@ -231,8 +231,8 @@ include 'scripts/cuentas.php';
             <i class="fa fa-dashboard"></i> <span>Inicio</span>
           </a>
         </li>
-        <li class="treeview">
-          <a href="vehiculos.php">
+        <li>
+         <a href="vehiculos.php">
             <i class="fa fa-files-o"></i>
             <span>Mis vehículos</span>
             <span class="pull-right-container">
@@ -241,7 +241,7 @@ include 'scripts/cuentas.php';
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="cambiar_skin.php">
             <i class="fa fa-th"></i> <span>Cambiar ropa</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-green"><?php echo $skin; ?></small>
@@ -275,17 +275,12 @@ include 'scripts/cuentas.php';
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-folder"></i> <span>Historial</span>
-          </a>
-        </li>
-        <li class="treeview">
-          <a href="#">
             <i class="fa fa-share"></i> <span>Premium</span>
           </a>
         </li>
-        <li class="header">ADMINISTRACIÓN</li>
-        <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>PCA</span></a></li>
-        <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Certificar <span class="label label-primary pull-right">número</span></span></a></li>
+          <li class="header">ADMINISTRACIÓN</li>
+          <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>PCA</span></a></li>
+          <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Certificar <span class="label label-primary pull-right">número</span></span></a></li>.
       </ul>
     </section>
     <!-- /.sidebar -->
@@ -300,7 +295,7 @@ include 'scripts/cuentas.php';
         <small>Version 0.0.1</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="index2.html"><i class="fa fa-dashboard"></i> Inicio</a></li>
+        <li><a href="index.php"><i class="fa fa-dashboard"></i> Inicio</a></li>
       </ol>
     </section>
 
