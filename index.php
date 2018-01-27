@@ -10,6 +10,7 @@ if(!isset($_SESSION['usuario']))
 <?php
 include 'scripts/conexion.php';
 include 'scripts/cuentas.php';
+include 'scripts/descripciones.php'
 ?>
 
 <!DOCTYPE html>
@@ -265,14 +266,6 @@ include 'scripts/cuentas.php';
             <i class="fa fa-edit"></i> <span>Devlog</span>
           </a>
         </li>
-        <li>
-          <a href="pages/mailbox/mailbox.html">
-            <i class="fa fa-envelope"></i> <span>Correo electrónico</span>
-            <span class="pull-right-container">
-              <small class="label pull-right bg-red">número</small>
-            </span>
-          </a>
-        </li>
         <li class="treeview">
           <a href="#">
             <i class="fa fa-share"></i> <span>Premium</span>
@@ -415,6 +408,93 @@ include 'scripts/cuentas.php';
                     <div style="position: absolute;margin-left:580px"><div align="right"><h3><?php echo $certificado;?></h3></div> </div>
                     <br>
                     <br>
+                  </div></div>
+
+
+                    <div id="world-map-markers" style="height: 50px;"></div>
+                  </div>
+                </div>
+                <!-- /.col -->
+                <!-- /.col -->
+              </div>
+              <!-- /.row -->
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <div class="box box-danger">
+            <div class="box-header with-border">
+              <h3 class="box-title">Descripción física</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+              </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body padding">
+              <div class="row">
+                <div class="col-md-15 col-sm-15">
+                  <div class="pad">
+                    <div style="position: relative;margin-left:15px"><div align="left">
+                      <?php echo $fisica; ?>
+                  </div></div>
+
+
+                    <div id="world-map-markers" style="height: 50px;"></div>
+                  </div>
+                </div>
+                <!-- /.col -->
+                <!-- /.col -->
+              </div>
+              <!-- /.row -->
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <div class="box box-warning">
+            <div class="box-header with-border">
+              <h3 class="box-title">Descripción psíquica</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+              </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body padding">
+              <div class="row">
+                <div class="col-md-15 col-sm-15">
+                  <div class="pad">
+                    <div style="position: relative;margin-left:15px"><div align="left">
+                      <?php echo $psiquica; ?>
+                  </div></div>
+
+
+                    <div id="world-map-markers" style="height: 50px;"></div>
+                  </div>
+                </div>
+                <!-- /.col -->
+                <!-- /.col -->
+              </div>
+              <!-- /.row -->
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <div class="box box-danger">
+            <div class="box-header with-border">
+              <h3 class="box-title">Historia del personaje</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+              </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body padding">
+              <div class="row">
+                <div class="col-md-15 col-sm-15">
+                  <div class="pad">
+                    <div style="position: relative;margin-left:15px"><div align="left">
+                      <?php echo $historia; ?>
                   </div></div>
 
 
