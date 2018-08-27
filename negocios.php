@@ -396,11 +396,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Vehículos
+        Negocios
       </h1>
       <ol class="breadcrumb">
         <li><a href="index.php"><i class="fa fa-dashboard"></i> Inicio</a></li>
-        <li class="active"><a href="vehiculos.php">Vehículos</a></li>
+        <li class="active"><a href="negocios.php">Negocios</a></li>
       </ol>
     </section>
 
@@ -408,10 +408,11 @@
     <section class="content">
 
       <!-- Default box -->
-      <div class="col-md-3">
+      <div class="col-md-6">
         <div class="box box-info box-solid">
           <div class="box-header with-border">
-            <h3 class="box-title">Modelo del coche</h3>
+            <!-- Sustituir "Negocio número 1" por el nombre del negocio-->
+            <h3 class="box-title">Negocio número 1</h3>
 
             <div class="box-tools pull-right">
               <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
@@ -420,8 +421,6 @@
           </div>
           <!-- /.box-header -->
           <div class="box-body">
-            Imágen
-            <br>
             Precio
           </div>
           <!-- /.box-body -->
@@ -429,7 +428,25 @@
         <!-- /.box -->
       </div>
       <!-- /.box -->
+      <div class="col-md-6">
+        <div class="box box-info box-solid">
+          <div class="box-header with-border">
+            <!-- Sustituir "Negocio número 2" por el nombre del negocio-->
+            <h3 class="box-title">Negocio número 2</h3>
 
+            <div class="box-tools pull-right">
+              <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+            </div>
+            <!-- /.box-tools -->
+          </div>
+          <!-- /.box-header -->
+          <div class="box-body">
+            Precio
+          </div>
+          <!-- /.box-body -->
+        </div>
+        <!-- /.box -->
+      </div>
     </section>
     <!-- /.content -->
   </div>

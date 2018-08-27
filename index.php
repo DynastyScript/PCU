@@ -233,9 +233,9 @@ include 'scripts/descripciones.php'
           </a>
         </li>
         <li>
-         <a href="vehiculos.php">
+         <a href="negocios.php">
             <i class="fa fa-files-o"></i>
-            <span>Mis vehículos</span>
+            <span>Mis negocios</span>
             <span class="pull-right-container">
               <span class="label label-primary pull-right">número</span>
             </span>
@@ -266,9 +266,9 @@ include 'scripts/descripciones.php'
             <i class="fa fa-edit"></i> <span>Devlog</span>
           </a>
         </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-share"></i> <span>Premium</span>
+        <li>
+          <a href="/poplife/wiki/">
+            <i class="fa fa-share"></i> <span>Wiki Poplife</span>
           </a>
         </li>
           <li class="header">ADMINISTRACIÓN</li>
@@ -631,7 +631,7 @@ include 'scripts/descripciones.php'
               <span class="info-box-number">5,200</span>
 
               <div class="progress">
-                <div class="progress-bar" style="width: 50%"></div>
+                <div class="progress-bar" style="width: 100%"></div>
               </div>
               <span class="progress-description">
                     50% Increase in 30 Days
@@ -644,15 +644,20 @@ include 'scripts/descripciones.php'
             <span class="info-box-icon"><i class="ion ion-ios-heart-outline"></i></span>
 
             <div class="info-box-content">
-              <span class="info-box-text">Mentions</span>
-              <span class="info-box-number">92,050</span>
+              <span class="info-box-text">Vida</span>
+              <span class="info-box-number"><?php echo $vida; ?></span>
 
               <div class="progress">
-                <div class="progress-bar" style="width: 20%"></div>
+                <div class="progress-bar" style="width:<?php echo $vida?>"></div>
               </div>
               <span class="progress-description">
-                    20% Increase in 30 Days
-                  </span>
+                <?php
+                if ($row['Vida'] < '100') {
+                  $vida = 'Estás herido';
+                }
+                echo $vida;
+                ?>
+             </span>
             </div>
             <!-- /.info-box-content -->
           </div>

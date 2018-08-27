@@ -463,7 +463,11 @@ include 'scripts/descripciones.php'
                     <h4 class="modal-title">Lista de skins</h4>
                   </div>
                   <div class="modal-body">
-                    <p>One fine body&hellip;</p>
+                    <p>¡Actualmente usamos la versión SA-MP 0.3DL! El PCU no está completamente adaptado a una nueva versión y en esta sección es una de las que nos dá problemas,
+                        el cambio de skin por PCU solamente estará disponible para los skins de la versión anterior hasta una nueva actualización del servicio de PCU.
+                        <br>
+                        <br>
+                        Puedes consultar las skins de la versión 0.3.7 en la siguiente <a href="http://wiki.sa-mp.com/wiki/Skins:All" target="_blank">página</a></p>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Cerrar</button>
